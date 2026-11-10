@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>汉东风云 · 行测突围</title>
+  <meta name="description" content="以反腐剧《人民的名义》为背景的同人剧情行测学习游戏：办案闯关，边玩边学行测五大模块。">
+  <meta name="theme-color" content="#0a0d14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="行测突围">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='10' fill='%23b8332c'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23f6e6c8' font-family='serif'%3E检%3C/text%3E%3C/svg%3E">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app" class="app" aria-live="polite"></div>
+  <div id="modal-root" class="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="assertive"></div>
+
+  <!-- 题库数据（按题目编号分片，互不依赖） -->
+  <script src="js/data/q-verb.js"></script>
+  <script src="js/data/q-common.js"></script>
+  <script src="js/data/q-quant.js"></script>
+  <script src="js/data/q-data.js"></script>
+  <script src="js/data/q-logic.js"></script>
+  <!-- 「皖考」题包：安徽省考风格原创题（exam:'安徽省考'） -->
+  <script src="js/data/q2-verb.js"></script>
+  <script src="js/data/q2-quant.js"></script>
+  <script src="js/data/q2-figure.js"></script>
+  <script src="js/data/q2-logic.js"></script>
+  <script src="js/data/q2-data.js"></script>
+  <script src="js/data/q2-common.js"></script>
+  <!-- 第三批：500 题计划 · 零基础友好增补 -->
+  <script src="js/data/q3-verb.js"></script>
+  <script src="js/data/q3-quant.js"></script>
+  <script src="js/data/q3-figure.js"></script>
+  <script src="js/data/q3-logic.js"></script>
+  <script src="js/data/q3-data.js"></script>
+  <script src="js/data/q3-common.js"></script>
+  <!-- 第四批：2000 题计划 · 技巧标签版 -->
+  <script src="js/data/q4-verb1.js"></script>
+  <script src="js/data/q4-verb2.js"></script>
+  <script src="js/data/q4-verb3.js"></script>
+  <script src="js/data/q4-verb4.js"></script>
+  <script src="js/data/q4-verb5.js"></script>
+  <script src="js/data/q4-quant1.js"></script>
+  <script src="js/data/q4-quant2.js"></script>
+  <script src="js/data/q4-quant3.js"></script>
+  <script src="js/data/q4-quant4.js"></script>
+  <script src="js/data/q4-quant5.js"></script>
+  <script src="js/data/q4-quant6.js"></script>
+  <script src="js/data/q4-quant7.js"></script>
+  <script src="js/data/q4-figure1.js"></script>
+  <script src="js/data/q4-figure2.js"></script>
+  <script src="js/data/q4-logic1.js"></script>
+  <script src="js/data/q4-logic2.js"></script>
+  <script src="js/data/q4-logic3.js"></script>
+  <script src="js/data/q4-data1.js"></script>
+  <script src="js/data/q4-data2.js"></script>
+  <script src="js/data/q4-data3.js"></script>
+  <script src="js/data/q4-data4.js"></script>
+  <script src="js/data/q4-data5.js"></script>
+  <script src="js/data/q4-common1.js"></script>
+  <script src="js/data/q4-common2.js"></script>
+  <script src="js/data/q4-common3.js"></script>
+  <script src="js/data/q4-common4.js"></script>
+  <script src="js/data/formulas.js"></script>
+  <script src="js/data/story.js"></script>
+
+  <!-- 引擎 -->
+  <script src="js/store.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/ui-play.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

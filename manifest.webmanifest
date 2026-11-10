@@ -1,0 +1,18 @@
+{
+  "name": "汉东风云 · 行测突围",
+  "short_name": "行测突围",
+  "description": "以《人民的名义》同人剧情为外壳的行测学习游戏：2000 道原创题、技巧统计、公式手册、皖考模考。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0d14",
+  "theme_color": "#0a0d14",
+  "categories": ["education", "games"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
